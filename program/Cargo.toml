@@ -7,9 +7,12 @@ publish = false
 
 [dependencies]
 solana-program = "=1.11.1"
+arrayref="0.3.6"
+borsh = "0.9.0"
 
 [features]
 test-bpf = []
+no-entrypoint = []
 
 [dev-dependencies]
 assert_matches = "1.4.0"
